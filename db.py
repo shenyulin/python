@@ -1,5 +1,6 @@
 ###python链接MySQL数据库
 ###时间:2021.01.19
+###编写人：码农
 
 ##安装pymysql
 #引用pymysql
