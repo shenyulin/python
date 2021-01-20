@@ -2,7 +2,7 @@
 ###时间:2021.01.19
 ###编写人：码农
 
-##安装pymysql
+##安装python链接mysql数据库的接口pymysql，在终端输入：pip install pymysql 
 #引用pymysql
 import pymysql as pymysql
 
