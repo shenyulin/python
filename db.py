@@ -1,3 +1,7 @@
+###python链接MySQL数据库
+###时间:2021.01.19
+
+##安装pymysql
 #引用pymysql
 import pymysql as pymysql
 
@@ -32,5 +36,7 @@ for row in results:
 #------3.关闭连接--------#
 cursor.close() 
 conn.close() 
+
+
 
 
