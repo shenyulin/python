@@ -1,4 +1,4 @@
-## 20210119，python链接MySQL数据库
+#### 20210119，python链接MySQL数据库
 #python链接mysql数据库的接口pymysql，在终端输入：pip install pymysql 
 import pymysql as pymysql
 
