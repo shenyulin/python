@@ -1,14 +1,14 @@
 
 # 20210120，Python读取影像DICOM文件  
 ########安装pydicom包：pip install pydicom
-#Pydicom支持DICOM格式的读取：可以将dicom文件读入python结构，
-# 同时支持修改后的数据集可以再次写入DICOM格式文件。但需要注意，它不是被设计为查看图像，主要是用来操作DICOM文件的各种数据元素。
+#Pydicom支持DICOM格式的读取：可以将dicom文件读入python结构，同时支持修改后的数据集可以再次写入DICOM格式文件。但需要注意，它不是被设计为查看图像，主要是用来操作DICOM文件的各种数据元素。
 import pydicom
 import os
 
 ########安装matplotlib绘图库：pip install matplotlib  -i https://pypi.tuna.tsinghua.edu.cn/simple
 #镜像安装：-i https://pypi.tuna.tsinghua.edu.cn/simple
 import matplotlib.pyplot as plt
+
 #1.调用dicom文件
 file_path="DICOM\dome.dcm"
 
